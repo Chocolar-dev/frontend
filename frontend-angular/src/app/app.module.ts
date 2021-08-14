@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { CategoriesListComponent } from './components/categories-list/categories-list.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
     HomeComponent,
     QuienesSomosComponent,
     ContactoComponent,
+    CategoriesListComponent,
   ],
   imports: [
     BrowserModule,

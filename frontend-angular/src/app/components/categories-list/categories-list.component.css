@@ -1,0 +1,25 @@
+.categories-selector {
+    text-align: center;
+}
+
+.categories-selector__list {
+    display: flex;
+    justify-content: center;
+}
+
+.categories-selector__list > *+* {
+    margin-left: 20px;
+}
+
+.categories-selector__item:nth-child(2) {
+    background-color: var(--brown-600);
+}
+.categories-selector__item:nth-child(3) {
+    background-color: var(--brown-500);
+}
+.categories-selector__item:nth-child(4) {
+    background-color: var(--brown-400);
+}
+.categories-selector__item:nth-child(5) {
+    background-color: var(--brown-300);
+}

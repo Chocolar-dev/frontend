@@ -27,6 +27,10 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/old_assets/css/style.css",
+              "src/assets/old_assets/css/bootstrap.min.css",
+              "src/assets/old_assets/css/responsiveslides/responsiveslides.css",
+              "src/assets/old_assets/css/responsiveslides/demo.css",
               "src/styles.css"
             ],
             "scripts": []
