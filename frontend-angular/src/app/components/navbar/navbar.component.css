@@ -44,3 +44,6 @@ nav ul li a {
 nav ul li i {
     padding-left: 15px;
 }
+.submenu {
+    display: none;
+}
