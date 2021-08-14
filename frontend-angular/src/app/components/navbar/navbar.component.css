@@ -4,3 +4,46 @@ li{
 a{
     text-decoration: none;
 }
+
+nav{
+    max-width: 100%;
+    height: 63px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav ul {
+    width: 1024px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+nav ul li:hover {
+    background: #ECECEC;
+}
+nav ul li a {
+    color: #541314;
+    font-weight: 600;
+    letter-spacing: .6px;
+}
+nav ul li i {
+    padding-left: 15px;
+}
+.submenu {
+    display: none;
+}
